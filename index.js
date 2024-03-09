@@ -25,4 +25,4 @@ else if(n1==n2){
     document.querySelector("h1").innerHTML="Draw"
 }
 }
-window.onload = images;
+document.querySelector("button").addEventListener("click",images);
